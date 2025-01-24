@@ -74,6 +74,7 @@ Exercise 5: Insert an element between two others
 Complete Exercise 5 in the space below:
 */
 
+//splice(position, number of items to remove, what to insert)
 foods.splice(2, 0, "tofu");
 
 console.log('Exercise 5 result:', foods);
@@ -88,8 +89,27 @@ Exercise 6: Replace elements
 Complete Exercise 6 in the space below:
 */
 
+//splice(position, number of items to remove)
 foods.splice(1, 1, "sushi", "cupcake");
 
 console.log('Exercise 6 result:', foods);
 
 // == Exercise 7 =============================================================
+
+/*
+Exercise 7: Using the `slice()` method
+
+1) Use the `slice()` method to create a new array that contains 'sushi' and 
+   'cupcake'.
+
+2) Assign it to a variable named `yummy`.
+
+Complete Exercise 7 in the space below:
+*/
+
+//slice(start, end)
+let yummy = foods.slice(1, 3);
+
+console.log('Exercise 7 result:', yummy);
+
+// == Exercise 8 ==============================================================
