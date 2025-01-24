@@ -150,3 +150,68 @@ let allFoods = foods.join(" -> ");
 
 console.log('Exercise 9 result:', allFoods);
 
+// == Exercise 10 ==============================================================
+
+/*
+Exercise 10: Check for an element
+
+1) Using the .includes() method, check if the `foods` array contains the string
+   'soup'.
+
+2) Assign the result to a variable called `hasSoup``.
+
+Complete Exercise 10 in the space below:
+*/
+
+let hasSoup = foods.includes("soup");
+
+console.log('Exercise 10 result:', hasSoup);
+
+
+// == Exercise 11 ==============================================================
+
+/*
+Exercise 11: Odd numbers from an array
+
+1) Choose a method to iterate through the `nums` array.
+
+2) Push each odd number to a new array named `odds`.
+
+Hint: Initialize the `odds` variable to an empty array before the iteration.
+
+Complete Exercise 11 in the space below:
+*/
+
+const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
+
+let odds = [];
+
+nums.forEach((num) => {
+   //modulo operator: calculates the remainder of a division, NOT the quotient
+   //"how many times does num go into 2, and what's leftover?"
+   if (num % 2 !== 0) {
+      odds.push(num);
+   }
+});
+
+console.log('Exercise 11 result:', odds);
+
+
+
+// == Exercise 12 ==============================================================
+
+
+
+
+// == Exercise 13 ==============================================================
+
+
+
+
+// == Exercise 14 ==============================================================
+
+
+
+
+
+// == Exercise 15 ==============================================================
